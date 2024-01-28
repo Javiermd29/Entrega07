@@ -55,13 +55,13 @@ public class Entrega07 : MonoBehaviour
 Hanging on the wall
 And if one green bottle
 Should accidentally fall
-There’ll be 9 green bottles
+Thereâ€™ll be 9 green bottles
 Hanging on the wall*/
 
         for (int i = 10; i >= 1; i--)
         {
 
-            Debug.Log(i + " green bottles\n Hanging of the wall\n " + i + " green bottle hanging of the wall\n And if one green bottle\n Should accidentally fall\n There’ll be " + (i - 1) + " green bottles\nHanging on the wall");
+            Debug.Log(i + " green bottles\n Hanging of the wall\n " + i + " green bottle hanging of the wall\n And if one green bottle\n Should accidentally fall\n Thereâ€™ll be " + (i - 1) + " green bottles\nHanging on the wall");
         }
 
     }
@@ -73,7 +73,7 @@ Hanging on the wall*/
 
         while (randomTotal <= 100)
         {
-            int randomNumber = Random.Range(1, 10);
+            int randomNumber = Random.Range(1, 11);
 
             randomTotal = randomTotal + randomNumber;
 
